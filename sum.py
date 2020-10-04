@@ -24,8 +24,8 @@ def main():
               " (natural number)!")
     else:
         if natural_integer <= 0:
-            print("You have not inputted a positive number, please input a"
-                  " positive number!")
+            print("You have not inputted a natural number, please input a"
+                  " natural number!")
         else:
             while counter <= natural_integer:
                 sum = sum + counter
